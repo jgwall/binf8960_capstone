@@ -6,9 +6,10 @@
 #SBATCH --mem=2gb
 
 
-cd /scratch/jgwall/ecol_test2
+cd /scratch/jgwall/binf8960_capstone # Working directory
 
 # Run e coli pipeline
-#bash setup.sh
+bash setup.sh
 bash read_qc.sh
-#bash variant_calling.sh
+bash variant_calling.sh
+bash summary_stats.sh
