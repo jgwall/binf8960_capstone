@@ -9,7 +9,7 @@ module load SAMtools/1.18-GCC-12.3.0
 module load BCFtools/1.18-GCC-12.3.0
 
 # Make required folders
-mkdir data/genomes mkdir results/sam results/bam results/vcf results/bcf
+mkdir data/genomes results/sam results/bam results/vcf results/bcf
 
 # Download E. coli genome
 echo "Downloading genome"
