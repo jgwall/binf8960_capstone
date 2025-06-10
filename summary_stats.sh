@@ -19,6 +19,7 @@ echo -e "sample,step,count" > $report
 # Loop over samples to get counts
 for fwd in data/raw_fastq/*_1.fastq.gz; do
     sample=$(basename $fwd _1.fastq.gz)
+    echo "Getting stats for sample $sample"
     
     # Raw count
     rawcount=$(zcat $fwd | wc -l)
