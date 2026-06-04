@@ -11,7 +11,7 @@ output:
 
 This project aimed to do basic quality control and variant calling on a set of *E. coli* sequencing data following samples from a long-term evolution experiment. Details of the long-term experiment are available in [Tenaillon et al. 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4988878/).
 
-The pipeline to carry out this analysis is available at https://github.com/jgwall/binf8960_capstone/settings. 
+The pipeline to carry out this analysis is available at https://github.com/jgwall/binf8960_capstone. 
 
 *NOTE: I will probably delete this repo before I teach class next, so if you want to check it out, do so soon.*
 
